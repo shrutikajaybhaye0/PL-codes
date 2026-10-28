@@ -1,0 +1,112 @@
+Q1 Write a program to accept a student's name, roll number, and branch, then display the details.
+
+#include<stdio.h>
+#include<string.h>
+int main () {
+char a[50];
+int b;
+char c[50];
+printf("enter student name:");
+scanf("%s",&a);
+printf("enter roll number:");
+scanf("%d",&b);
+printf("enter branch:");
+scanf("%s",&c);
+printf("name of student is = %s\n",a);
+printf("student roll number is = %d\n",b);
+printf("branch of student is = %s\n",c);
+return 0;
+}
+
+Q2 Write a program to accept two integers and display their sum, difference, product, and quotient.
+
+#include<stdio.h>
+int main () {
+int a,b;
+printf("enter two number");
+scanf("%d %d",&a,&b);
+printf("a+b = %d\n",a+b);
+printf("a-b = %d\n",a-b);
+printf("a*b = %d\n",a*b);
+printf("a/b = %d\n",a/b);
+return 0;
+}
+
+Q3 Write a program to accept two float numbers and display their sum, difference, product, and quotient.
+
+#include<stdio.h>
+int main () {
+float a,b;
+printf("enter number a:");
+scanf("%f",&a);
+printf("enter number b:");
+scanf("%f",&b);
+printf("a+b = %f\n",a+b);
+printf("a-b = %f\n",a-b);
+printf("a*b = %f\n",a*b);
+printf("a/b = %f\n",a/b);
+return 0;
+}
+
+unit2
+Q1 take input and check if number is zero or non zero
+
+#include<stdio.h>
+int main () {
+float a;
+printf("enter number a:");
+scanf("%f",&a);
+if (a==0)
+{
+printf("number is zero");
+}
+else
+{
+printf("number is non zero");
+}
+return 0;
+}
+
+Q2 check leap year
+
+#include<stdio.h>
+int main () {
+int a;
+printf("enter year:");
+scanf("%d",&a);
+if (a%4==0)
+{
+printf("its a leap year");
+}
+else
+{
+printf("not a leap year");
+}
+return 0;
+}
+
+Q3 check voting eligibility
+
+#include<stdio.h>
+int main () {
+int a;
+printf("enter age:");
+scanf("%d",&a);
+if (a>=18)
+{
+printf("eligible for voting");
+}
+else
+{
+printf("not eligible for voting");
+}
+return 0;
+}
+
+
+
+
+
+
+
+
